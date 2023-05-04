@@ -29,4 +29,9 @@ public class URLShortenerController {
     public void redirect(HttpServletResponse response, @PathVariable String key) throws IOException {
         urlShortenerService.redirect(response, key);
     }
+
+    @GetMapping
+    public String test() {
+       return "Works";
+    }
 }
