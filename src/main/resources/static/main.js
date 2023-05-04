@@ -2,7 +2,7 @@ $(document).ready(function() {
 	$("#shortenbutton").click(function() {
 		$.ajax({
 			type : 'POST',
-			url : 'http://snip.up.railway.app/shorten',
+			url : 'https://snip.up.railway.app/shorten',
 			data : JSON.stringify({
 				"originalURL" : $("#urlinput").val()
 			}),
