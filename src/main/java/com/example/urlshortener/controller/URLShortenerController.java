@@ -30,7 +30,7 @@ public class URLShortenerController {
         urlShortenerService.redirect(response, key);
     }
 
-    @GetMapping
+    @GetMapping("/test")
     public String test() {
        return "Works";
     }

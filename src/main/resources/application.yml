@@ -2,8 +2,8 @@ spring:
     autoconfigure:
         exclude: org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
     redis:
-        host: ${REDISHOST}
-        port: ${REDISPORT}
-        password: ${REDISPASSWORD}
+        host: redis-10210.c302.asia-northeast1-1.gce.cloud.redislabs.com
+        port: 10210
+        password: GtjQvSSi8O9eTTcmqa6X75qnbgW73BwG
 deployment:
     url: snip.up.railway.app
